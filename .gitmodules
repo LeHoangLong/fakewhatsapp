@@ -1,3 +1,9 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:LeHoangLong/fakewhatsapp-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:LeHoangLong/fakewhatsapp-frontend.git
+[submodule "fakewhatsapp-frontend"]
+	path = fakewhatsapp-frontend
+	url = git@github.com:LeHoangLong/fakewhatsapp-frontend.git
