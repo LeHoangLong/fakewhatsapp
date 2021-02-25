@@ -1,0 +1,21 @@
+version: '2.0'
+services:
+  fakewhatsapp:
+    volumes:
+      - ./:/opt/app/
+    image: fakewhatsapp:dev-latest
+    command: /opt/app/scripts/start-up.sh
+    ports:
+      - "80:80"
+  db:
+    image: postgres:12
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=fakewhatsapp
+      - POSTGRES_USER=fakewhatsapp
+      - POSTGRES_PASSWORD=fakewhatsapp
+    ports:
+      - "5432:5432"
+volumes:
+  postgres-data:
