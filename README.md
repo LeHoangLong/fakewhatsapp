@@ -22,6 +22,14 @@ For live demo, simply go to http://35.198.195.103/ and sign up with your usernam
 |abcd|1234|
 |abcde|12345|
 
+Usage demo
+
+![Alt text](/docs/login.gif?raw=true "Log in demo")
+
+![Alt text](/docs/sendmessage.gif?raw=true "send message demo")
+
+![Alt text](/docs/logout.gif?raw=true "Log outdemo")
+
 ## Technology used
 
 I use Postgres for the database and Nodejs for backend while the frontend is made with ReactJS.
