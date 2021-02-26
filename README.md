@@ -50,7 +50,7 @@ Unlike the view layer, the controller and driver may be shared between different
 
 Model is the data object that contains the data to be passed around between the layers.
 
-![Alt text](/docs/MainPages.jpg?raw=true "Main web server packages")
+![Alt text](/docs/MainPackages.jpg?raw=true "Main web server packages")
 
 Currently the application is divided into 3 different modules, each following the above architecture. When a module uses another module, it means the controller or driver of the other module is being reused on this module (currently only drivers are shared due to the code size still being simple).
 
