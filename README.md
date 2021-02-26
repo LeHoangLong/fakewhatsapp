@@ -71,7 +71,7 @@ The Chat module handles chat creation and sending messages between users.
 
 ### 2. Database architecture
 
-![Alt text](/docs/DatabaseModles.png?raw=true "Database models")
+![Alt text](/docs/DatabaseModels.png?raw=true "Database models")
 
 Data modelling diagram can be viewed here (https://dbdiagram.io/d/602f423e80d742080a3b2a65)
 
